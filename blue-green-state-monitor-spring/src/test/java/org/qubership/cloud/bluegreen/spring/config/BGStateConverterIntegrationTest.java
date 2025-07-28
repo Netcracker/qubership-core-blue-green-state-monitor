@@ -5,7 +5,7 @@ import ch.qos.logback.classic.PatternLayout;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.read.ListAppender;
 import org.junit.jupiter.api.Test;
-import org.qubership.cloud.bluegreen.spring.log.BlueGreenStateHolder;
+import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class BGStateConverterIntegrationTest extends AbstractConsulTest {
 
     @Autowired
-    BlueGreenStateHolder blueGreenStateHolder;
+    BlueGreenStatePublisher blueGreenStatePublisher;
 
     @Test
     void logContainsNamespaceStatus() {
