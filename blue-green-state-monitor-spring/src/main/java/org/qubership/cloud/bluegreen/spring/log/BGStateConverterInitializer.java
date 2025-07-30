@@ -5,6 +5,10 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
+/**
+ * Initializes the {@link BGStateConverter} with a {@link BlueGreenStatePublisher} instance
+ * once the Spring application context is fully refreshed.
+ */
 @Component
 public class BGStateConverterInitializer implements ApplicationListener<ContextRefreshedEvent> {
     @Override
