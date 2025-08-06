@@ -23,7 +23,7 @@ import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
  * <pre>{@code
  * <conversionRule conversionWord="bgState" converterClass="org.qubership.cloud.bluegreen.spring.log.BGStateConverter"/>
  *
- * <pattern>%d{HH:mm:ss.SSS} [%-5level] [bgState:%bgState] - %msg%n</pattern>
+ * <pattern>%d{HH:mm:ss.SSS} [%-5level] [bg-state:%bgState] - %msg%n</pattern>
  * }</pre>
  */
 public class BGStateConverter extends ClassicConverter {

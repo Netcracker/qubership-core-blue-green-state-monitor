@@ -28,7 +28,7 @@ class BGStateConverterIntegrationTest extends AbstractConsulTest {
 
         PatternLayout layout = new PatternLayout();
         layout.setContext(logger.getLoggerContext());
-        layout.setPattern("%d{HH:mm:ss.SSS} %-5level [%thread] %logger bgState:%bgState - %msg%n");
+        layout.setPattern("%d{HH:mm:ss.SSS} %-5level [%thread] %logger bg-state:%bgState - %msg%n");
         layout.start();
 
 
@@ -37,7 +37,7 @@ class BGStateConverterIntegrationTest extends AbstractConsulTest {
 
         boolean found = appender.list.stream()
                 .map(layout::doLayout)
-                .anyMatch(msg -> msg.contains("bgState:active"));
+                .anyMatch(msg -> msg.contains("bg-state:active"));
         assertThat(found).isTrue();
     }
 }
