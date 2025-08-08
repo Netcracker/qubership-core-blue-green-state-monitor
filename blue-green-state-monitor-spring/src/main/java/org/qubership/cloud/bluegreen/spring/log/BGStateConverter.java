@@ -10,7 +10,7 @@ import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
  * This converter retrieves the current Blue-Green state
  * from a {@link BlueGreenStatePublisher} and makes it available in logging patterns.
  * If the state cannot be determined — for example, if the Spring application has not yet fully started —
- * it returns {@code "unknown"}.
+ * it returns "-".
  * </p>
  *
  * <p>
@@ -21,9 +21,9 @@ import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
  *
  * <p>Example usage in {@code logback.xml}:</p>
  * <pre>{@code
- * <conversionRule conversionWord="bgState" converterClass="org.qubership.cloud.bluegreen.spring.log.BGStateConverter"/>
+ * <conversionRule conversionWord="bg_state" converterClass="org.qubership.cloud.bluegreen.spring.log.BGStateConverter"/>
  *
- * <pattern>%d{HH:mm:ss.SSS} [%-5level] [bg-state:%bgState] - %msg%n</pattern>
+ * <pattern>%d{HH:mm:ss.SSS} [%-5level] [bg_state:%bg_state] - %msg%n</pattern>
  * }</pre>
  */
 public class BGStateConverter extends ClassicConverter {
@@ -36,7 +36,7 @@ public class BGStateConverter extends ClassicConverter {
     @Override
     public String convert(ILoggingEvent event) {
         if (blueGreenStatePublisher == null || blueGreenStatePublisher.getBlueGreenState() == null) {
-            return "unknown";
+            return "-";
         }
         return blueGreenStatePublisher.getBlueGreenState().getCurrent().getState().getName();
     }
