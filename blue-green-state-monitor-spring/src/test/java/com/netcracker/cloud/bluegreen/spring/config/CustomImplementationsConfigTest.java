@@ -1,8 +1,8 @@
 package com.netcracker.cloud.bluegreen.spring.config;
 
-import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
-import org.qubership.cloud.bluegreen.api.service.GlobalMutexService;
-import org.qubership.cloud.bluegreen.api.service.MicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.api.service.BlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.api.service.GlobalMutexService;
+import com.netcracker.cloud.bluegreen.api.service.MicroserviceMutexService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

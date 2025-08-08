@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen.api.service;
 
-import org.qubership.cloud.bluegreen.api.error.LockFailedException;
+import com.netcracker.cloud.bluegreen.api.error.LockFailedException;
 
 import java.time.Duration;
 

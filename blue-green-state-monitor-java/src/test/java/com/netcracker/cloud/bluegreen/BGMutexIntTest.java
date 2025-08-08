@@ -1,11 +1,11 @@
 package com.netcracker.cloud.bluegreen;
 
-import org.qubership.cloud.bluegreen.api.model.MicroserviceLockInfo;
-import org.qubership.cloud.bluegreen.api.service.GlobalMutexService;
-import org.qubership.cloud.bluegreen.api.service.MicroserviceMutexService;
-import org.qubership.cloud.bluegreen.impl.http.ObjectMapperPublisher;
-import org.qubership.cloud.bluegreen.impl.service.ConsulGlobalMutexService;
-import org.qubership.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.api.model.MicroserviceLockInfo;
+import com.netcracker.cloud.bluegreen.api.service.GlobalMutexService;
+import com.netcracker.cloud.bluegreen.api.service.MicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.impl.http.ObjectMapperPublisher;
+import com.netcracker.cloud.bluegreen.impl.service.ConsulGlobalMutexService;
+import com.netcracker.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.junit.jupiter.api.AfterEach;
@@ -26,8 +26,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import java.util.stream.IntStream;
 
-import static org.qubership.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService.MAX_TTL;
-import static org.qubership.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService.MIN_TTL;
+import static com.netcracker.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService.MAX_TTL;
+import static com.netcracker.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService.MIN_TTL;
 
 
 class BGMutexIntTest extends AbstractBGTest {

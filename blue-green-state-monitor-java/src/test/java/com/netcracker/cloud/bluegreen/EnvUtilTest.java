@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen;
 
-import org.qubership.cloud.bluegreen.impl.util.EnvUtil;
+import com.netcracker.cloud.bluegreen.impl.util.EnvUtil;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junitpioneer.jupiter.SetSystemProperty;

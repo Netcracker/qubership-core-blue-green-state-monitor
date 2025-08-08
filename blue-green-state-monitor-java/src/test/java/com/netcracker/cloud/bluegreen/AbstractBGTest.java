@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen;
 
-import org.qubership.cloud.bluegreen.impl.http.HttpClientAdapter;
+import com.netcracker.cloud.bluegreen.impl.http.HttpClientAdapter;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.testcontainers.consul.ConsulContainer;

@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen.impl.http;
 
-import org.qubership.cloud.bluegreen.impl.util.JsonUtil;
+import com.netcracker.cloud.bluegreen.impl.util.JsonUtil;
 
 import java.net.http.HttpRequest;
 import java.nio.ByteBuffer;

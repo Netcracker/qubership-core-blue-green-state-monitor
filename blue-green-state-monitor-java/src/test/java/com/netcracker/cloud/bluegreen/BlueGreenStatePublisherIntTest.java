@@ -1,14 +1,14 @@
 package com.netcracker.cloud.bluegreen;
 
-import org.qubership.cloud.bluegreen.api.model.BlueGreenState;
-import org.qubership.cloud.bluegreen.api.model.NamespaceVersion;
-import org.qubership.cloud.bluegreen.api.model.State;
-import org.qubership.cloud.bluegreen.api.model.Version;
-import org.qubership.cloud.bluegreen.impl.dto.BGState;
-import org.qubership.cloud.bluegreen.impl.dto.NSVersion;
-import org.qubership.cloud.bluegreen.impl.http.ObjectMapperPublisher;
-import org.qubership.cloud.bluegreen.impl.service.ConsulBlueGreenStatePublisher;
-import org.qubership.cloud.bluegreen.impl.util.JsonUtil;
+import com.netcracker.cloud.bluegreen.api.model.BlueGreenState;
+import com.netcracker.cloud.bluegreen.api.model.NamespaceVersion;
+import com.netcracker.cloud.bluegreen.api.model.State;
+import com.netcracker.cloud.bluegreen.api.model.Version;
+import com.netcracker.cloud.bluegreen.impl.dto.BGState;
+import com.netcracker.cloud.bluegreen.impl.dto.NSVersion;
+import com.netcracker.cloud.bluegreen.impl.http.ObjectMapperPublisher;
+import com.netcracker.cloud.bluegreen.impl.service.ConsulBlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.impl.util.JsonUtil;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -27,7 +27,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
-import static org.qubership.cloud.bluegreen.impl.service.ConsulBlueGreenStatePublisher.UNKNOWN_DATETIME;
+import static com.netcracker.cloud.bluegreen.impl.service.ConsulBlueGreenStatePublisher.UNKNOWN_DATETIME;
 
 
 class BlueGreenStatePublisherIntTest extends AbstractBGTest {

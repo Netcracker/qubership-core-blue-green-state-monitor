@@ -1,8 +1,8 @@
 package com.netcracker.cloud.bluegreen;
 
-import org.qubership.cloud.bluegreen.impl.http.HttpClientAdapter;
-import org.qubership.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;
-import org.qubership.cloud.bluegreen.impl.service.ConsulBlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.impl.http.HttpClientAdapter;
+import com.netcracker.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;
+import com.netcracker.cloud.bluegreen.impl.service.ConsulBlueGreenStatePublisher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;

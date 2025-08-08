@@ -2,7 +2,7 @@ package com.netcracker.cloud.bluegreen;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.qubership.cloud.bluegreen.api.model.Version;
+import com.netcracker.cloud.bluegreen.api.model.Version;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

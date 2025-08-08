@@ -1,7 +1,7 @@
 package com.netcracker.cloud.bluegreen.impl.http;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.qubership.cloud.bluegreen.impl.util.JsonUtil;
+import com.netcracker.cloud.bluegreen.impl.util.JsonUtil;
 import lombok.Getter;
 
 import java.net.http.HttpHeaders;

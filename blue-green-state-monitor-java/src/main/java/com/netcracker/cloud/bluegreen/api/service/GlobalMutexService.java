@@ -1,7 +1,7 @@
 package com.netcracker.cloud.bluegreen.api.service;
 
-import org.qubership.cloud.bluegreen.api.error.LockFailedException;
-import org.qubership.cloud.bluegreen.api.model.MicroserviceLockInfo;
+import com.netcracker.cloud.bluegreen.api.error.LockFailedException;
+import com.netcracker.cloud.bluegreen.api.model.MicroserviceLockInfo;
 
 import java.time.Duration;
 import java.util.List;

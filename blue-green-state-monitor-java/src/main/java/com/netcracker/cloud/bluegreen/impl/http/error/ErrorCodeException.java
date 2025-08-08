@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen.impl.http.error;
 
-import org.qubership.cloud.bluegreen.impl.http.ResponseHandler;
+import com.netcracker.cloud.bluegreen.impl.http.ResponseHandler;
 
 public class ErrorCodeException extends DefaultErrorCodeException {
     public final ResponseHandler<?> responseHandler;

@@ -1,7 +1,7 @@
 package com.netcracker.cloud.bluegreen.spring.config;
 
-import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
-import org.qubership.cloud.bluegreen.impl.service.InMemoryBlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.api.service.BlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.impl.service.InMemoryBlueGreenStatePublisher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

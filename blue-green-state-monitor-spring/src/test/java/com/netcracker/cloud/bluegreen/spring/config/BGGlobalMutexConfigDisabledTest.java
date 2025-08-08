@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen.spring.config;
 
-import org.qubership.cloud.bluegreen.api.service.GlobalMutexService;
+import com.netcracker.cloud.bluegreen.api.service.GlobalMutexService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

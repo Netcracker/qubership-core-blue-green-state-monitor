@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen.impl.util;
 
-import org.qubership.cloud.bluegreen.impl.http.ResponseHandler;
+import com.netcracker.cloud.bluegreen.impl.http.ResponseHandler;
 
 import java.time.Duration;
 

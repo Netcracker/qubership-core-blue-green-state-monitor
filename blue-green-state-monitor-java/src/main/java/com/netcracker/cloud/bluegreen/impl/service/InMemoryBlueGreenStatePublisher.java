@@ -1,11 +1,11 @@
 package com.netcracker.cloud.bluegreen.impl.service;
 
-import org.qubership.cloud.bluegreen.api.model.BlueGreenState;
-import org.qubership.cloud.bluegreen.api.model.NamespaceVersion;
-import org.qubership.cloud.bluegreen.api.model.State;
-import org.qubership.cloud.bluegreen.api.model.Version;
-import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
-import org.qubership.cloud.bluegreen.impl.util.EnvUtil;
+import com.netcracker.cloud.bluegreen.api.model.BlueGreenState;
+import com.netcracker.cloud.bluegreen.api.model.NamespaceVersion;
+import com.netcracker.cloud.bluegreen.api.model.State;
+import com.netcracker.cloud.bluegreen.api.model.Version;
+import com.netcracker.cloud.bluegreen.api.service.BlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.impl.util.EnvUtil;
 
 import java.util.*;
 import java.util.function.Consumer;

@@ -1,9 +1,9 @@
 package com.netcracker.cloud.bluegreen.impl.http;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.qubership.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;
-import org.qubership.cloud.bluegreen.impl.http.error.ErrorCodeException;
-import org.qubership.cloud.bluegreen.impl.http.error.InvocationException;
+import com.netcracker.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;
+import com.netcracker.cloud.bluegreen.impl.http.error.ErrorCodeException;
+import com.netcracker.cloud.bluegreen.impl.http.error.InvocationException;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;

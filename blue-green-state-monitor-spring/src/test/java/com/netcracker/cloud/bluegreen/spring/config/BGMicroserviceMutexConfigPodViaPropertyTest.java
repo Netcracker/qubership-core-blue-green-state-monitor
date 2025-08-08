@@ -1,13 +1,13 @@
 package com.netcracker.cloud.bluegreen.spring.config;
 
-import org.qubership.cloud.bluegreen.api.service.MicroserviceMutexService;
-import org.qubership.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.api.service.MicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.qubership.cloud.bluegreen.spring.config.AbstractConsulTest.assertField;
+import static com.netcracker.cloud.bluegreen.spring.config.AbstractConsulTest.assertField;
 
 @SpringBootTest(classes = {AbstractConsulTest.TestTokenStorageConfig.class, BlueGreenMicroserviceMutexConfiguration.class},
         properties = {

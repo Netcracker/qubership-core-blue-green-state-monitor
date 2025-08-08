@@ -1,21 +1,21 @@
 package com.netcracker.cloud.bluegreen.impl.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.qubership.cloud.bluegreen.api.error.LockFailedException;
-import org.qubership.cloud.bluegreen.api.model.LockAction;
-import org.qubership.cloud.bluegreen.api.model.MicroserviceLockInfo;
-import org.qubership.cloud.bluegreen.api.service.GlobalMutexService;
-import org.qubership.cloud.bluegreen.impl.dto.consul.*;
-import org.qubership.cloud.bluegreen.impl.http.HttpClientAdapter;
-import org.qubership.cloud.bluegreen.impl.http.ObjectMapperPublisher;
-import org.qubership.cloud.bluegreen.impl.http.ResponseHandler;
-import org.qubership.cloud.bluegreen.impl.http.StringResponseBodyHandler;
-import org.qubership.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;
-import org.qubership.cloud.bluegreen.impl.http.error.ErrorCodeException;
-import org.qubership.cloud.bluegreen.impl.http.error.InvocationException;
-import org.qubership.cloud.bluegreen.impl.util.ConsulUtil;
-import org.qubership.cloud.bluegreen.impl.util.EnvUtil;
-import org.qubership.cloud.bluegreen.impl.util.JsonUtil;
+import com.netcracker.cloud.bluegreen.api.error.LockFailedException;
+import com.netcracker.cloud.bluegreen.api.model.LockAction;
+import com.netcracker.cloud.bluegreen.api.model.MicroserviceLockInfo;
+import com.netcracker.cloud.bluegreen.api.service.GlobalMutexService;
+import com.netcracker.cloud.bluegreen.impl.dto.consul.*;
+import com.netcracker.cloud.bluegreen.impl.http.HttpClientAdapter;
+import com.netcracker.cloud.bluegreen.impl.http.ObjectMapperPublisher;
+import com.netcracker.cloud.bluegreen.impl.http.ResponseHandler;
+import com.netcracker.cloud.bluegreen.impl.http.StringResponseBodyHandler;
+import com.netcracker.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;
+import com.netcracker.cloud.bluegreen.impl.http.error.ErrorCodeException;
+import com.netcracker.cloud.bluegreen.impl.http.error.InvocationException;
+import com.netcracker.cloud.bluegreen.impl.util.ConsulUtil;
+import com.netcracker.cloud.bluegreen.impl.util.EnvUtil;
+import com.netcracker.cloud.bluegreen.impl.util.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.URI;

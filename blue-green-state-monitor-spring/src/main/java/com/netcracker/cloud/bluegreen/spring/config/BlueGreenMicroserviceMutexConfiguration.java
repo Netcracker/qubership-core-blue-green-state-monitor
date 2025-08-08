@@ -1,9 +1,9 @@
 package com.netcracker.cloud.bluegreen.spring.config;
 
-import org.qubership.cloud.bluegreen.api.service.MicroserviceMutexService;
-import org.qubership.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;
-import org.qubership.cloud.bluegreen.impl.util.EnvUtil;
-import org.qubership.cloud.consul.provider.common.TokenStorage;
+import com.netcracker.cloud.bluegreen.api.service.MicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;
+import com.netcracker.cloud.bluegreen.impl.util.EnvUtil;
+import com.netcracker.cloud.consul.provider.common.TokenStorage;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -13,12 +13,12 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.Optional;
 
-import static org.qubership.cloud.bluegreen.spring.config.BlueGreenSpringPropertiesUtil.*;
+import static com.netcracker.cloud.bluegreen.spring.config.BlueGreenSpringPropertiesUtil.*;
 
 /**
  * If AutoConfiguration is turned off, import one of the following Spring Configurations which provide TokenStorage bean
- * 1) org.qubership.cloud.consul.provider.spring.webclient.config.ConsulM2MWebClientAutoConfiguration.class
- * 2) org.qubership.cloud.consul.provider.spring.resttemplate.config.ConsulM2MRestTemplateAutoConfiguration.class
+ * 1) com.netcracker.cloud.consul.provider.spring.webclient.config.ConsulM2MWebClientAutoConfiguration.class
+ * 2) com.netcracker.cloud.consul.provider.spring.resttemplate.config.ConsulM2MRestTemplateAutoConfiguration.class
  * see README.md for details
  */
 @Configuration

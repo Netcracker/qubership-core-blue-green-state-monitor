@@ -1,13 +1,13 @@
 package com.netcracker.cloud.bluegreen;
 
-import org.qubership.cloud.bluegreen.api.model.BlueGreenState;
-import org.qubership.cloud.bluegreen.api.model.State;
-import org.qubership.cloud.bluegreen.api.model.Version;
-import org.qubership.cloud.bluegreen.impl.service.InMemoryBlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.api.model.BlueGreenState;
+import com.netcracker.cloud.bluegreen.api.model.State;
+import com.netcracker.cloud.bluegreen.api.model.Version;
+import com.netcracker.cloud.bluegreen.impl.service.InMemoryBlueGreenStatePublisher;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.qubership.cloud.bluegreen.impl.util.EnvUtil.NAMESPACE_PROP;
+import static com.netcracker.cloud.bluegreen.impl.util.EnvUtil.NAMESPACE_PROP;
 
 class InMemoryBlueGreenStatePublisherTest {
 

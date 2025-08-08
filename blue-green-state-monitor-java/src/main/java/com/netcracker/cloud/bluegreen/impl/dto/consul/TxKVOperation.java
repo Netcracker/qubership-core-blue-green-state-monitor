@@ -4,8 +4,8 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import org.qubership.cloud.bluegreen.impl.dto.serdes.Base64Deserializer;
-import org.qubership.cloud.bluegreen.impl.dto.serdes.Base64Serializer;
+import com.netcracker.cloud.bluegreen.impl.dto.serdes.Base64Deserializer;
+import com.netcracker.cloud.bluegreen.impl.dto.serdes.Base64Serializer;
 import lombok.Builder;
 import lombok.Data;
 

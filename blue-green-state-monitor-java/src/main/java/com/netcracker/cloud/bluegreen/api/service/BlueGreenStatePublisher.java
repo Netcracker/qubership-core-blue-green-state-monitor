@@ -1,6 +1,6 @@
 package com.netcracker.cloud.bluegreen.api.service;
 
-import org.qubership.cloud.bluegreen.api.model.BlueGreenState;
+import com.netcracker.cloud.bluegreen.api.model.BlueGreenState;
 
 import java.util.function.Consumer;
 
