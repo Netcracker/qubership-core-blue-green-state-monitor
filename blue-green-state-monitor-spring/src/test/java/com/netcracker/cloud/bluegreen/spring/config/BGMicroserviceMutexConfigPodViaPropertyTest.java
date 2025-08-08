@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.spring.config;
+package com.netcracker.cloud.bluegreen.spring.config;
 
 import org.qubership.cloud.bluegreen.api.service.MicroserviceMutexService;
 import org.qubership.cloud.bluegreen.impl.service.ConsulMicroserviceMutexService;

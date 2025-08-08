@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.util;
+package com.netcracker.cloud.bluegreen.impl.util;
 
 import org.qubership.cloud.bluegreen.impl.http.ResponseHandler;
 

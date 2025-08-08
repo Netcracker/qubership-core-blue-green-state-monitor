@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.http.error;
+package com.netcracker.cloud.bluegreen.impl.http.error;
 
 public class InvocationException extends RuntimeException {
     public InvocationException(Throwable cause) {

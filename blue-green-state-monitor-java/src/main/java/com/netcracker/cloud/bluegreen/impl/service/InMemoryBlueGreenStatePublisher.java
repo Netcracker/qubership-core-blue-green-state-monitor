@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.service;
+package com.netcracker.cloud.bluegreen.impl.service;
 
 import org.qubership.cloud.bluegreen.api.model.BlueGreenState;
 import org.qubership.cloud.bluegreen.api.model.NamespaceVersion;

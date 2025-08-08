@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.dto;
+package com.netcracker.cloud.bluegreen.impl.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

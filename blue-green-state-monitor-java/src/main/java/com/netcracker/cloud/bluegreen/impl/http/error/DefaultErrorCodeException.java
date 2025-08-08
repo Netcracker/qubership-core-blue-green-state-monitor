@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.http.error;
+package com.netcracker.cloud.bluegreen.impl.http.error;
 
 import org.qubership.cloud.bluegreen.impl.http.ResponseHandler;
 import lombok.Getter;

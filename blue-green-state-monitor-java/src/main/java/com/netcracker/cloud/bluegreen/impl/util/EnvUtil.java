@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.util;
+package com.netcracker.cloud.bluegreen.impl.util;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

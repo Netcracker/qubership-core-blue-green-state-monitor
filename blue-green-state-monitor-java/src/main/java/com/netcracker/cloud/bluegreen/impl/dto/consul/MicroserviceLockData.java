@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.dto.consul;
+package com.netcracker.cloud.bluegreen.impl.dto.consul;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

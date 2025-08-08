@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.util;
+package com.netcracker.cloud.bluegreen.impl.util;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;

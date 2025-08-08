@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.service;
+package com.netcracker.cloud.bluegreen.impl.service;
 
 import org.qubership.cloud.bluegreen.impl.http.ResponseHandler;
 import lombok.extern.slf4j.Slf4j;

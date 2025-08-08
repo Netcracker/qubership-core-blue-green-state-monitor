@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.http;
+package com.netcracker.cloud.bluegreen.impl.http;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import org.qubership.cloud.bluegreen.impl.util.JsonUtil;

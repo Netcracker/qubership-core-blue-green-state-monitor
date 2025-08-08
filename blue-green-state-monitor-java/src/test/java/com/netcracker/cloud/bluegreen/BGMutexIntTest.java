@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen;
+package com.netcracker.cloud.bluegreen;
 
 import org.qubership.cloud.bluegreen.api.model.MicroserviceLockInfo;
 import org.qubership.cloud.bluegreen.api.service.GlobalMutexService;

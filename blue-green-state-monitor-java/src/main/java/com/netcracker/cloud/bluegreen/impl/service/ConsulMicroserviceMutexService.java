@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.service;
+package com.netcracker.cloud.bluegreen.impl.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import org.qubership.cloud.bluegreen.api.error.LockFailedException;

@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.api.model;
+package com.netcracker.cloud.bluegreen.api.model;
 
 import lombok.Value;
 

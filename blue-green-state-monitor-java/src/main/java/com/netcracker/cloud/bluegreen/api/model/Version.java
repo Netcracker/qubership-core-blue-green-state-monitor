@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.api.model;
+package com.netcracker.cloud.bluegreen.api.model;
 
 import java.util.Objects;
 import java.util.regex.Matcher;

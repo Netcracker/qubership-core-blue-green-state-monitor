@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.api.service;
+package com.netcracker.cloud.bluegreen.api.service;
 
 import org.qubership.cloud.bluegreen.api.error.LockFailedException;
 

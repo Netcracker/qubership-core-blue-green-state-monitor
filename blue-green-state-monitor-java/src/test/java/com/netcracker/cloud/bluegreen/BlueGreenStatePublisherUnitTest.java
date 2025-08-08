@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen;
+package com.netcracker.cloud.bluegreen;
 
 import org.qubership.cloud.bluegreen.impl.http.HttpClientAdapter;
 import org.qubership.cloud.bluegreen.impl.http.error.DefaultErrorCodeException;

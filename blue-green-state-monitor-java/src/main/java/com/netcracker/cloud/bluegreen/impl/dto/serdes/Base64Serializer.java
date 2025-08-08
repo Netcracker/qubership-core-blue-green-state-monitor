@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.dto.serdes;
+package com.netcracker.cloud.bluegreen.impl.dto.serdes;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;

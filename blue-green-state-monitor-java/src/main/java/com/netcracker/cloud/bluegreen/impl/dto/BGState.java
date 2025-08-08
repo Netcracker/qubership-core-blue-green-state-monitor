@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.dto;
+package com.netcracker.cloud.bluegreen.impl.dto;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -16,7 +16,7 @@ import java.time.OffsetDateTime;
 public class BGState {
     NSVersion originNamespace;
     NSVersion peerNamespace;
-    
+
     @JsonSerialize(using = OffsetDateTimeSerializer.class)
     @JsonDeserialize(using = OffsetDateTimeDeserializer.class)
     OffsetDateTime updateTime;

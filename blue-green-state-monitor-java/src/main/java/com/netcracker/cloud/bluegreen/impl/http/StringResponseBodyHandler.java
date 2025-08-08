@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.impl.http;
+package com.netcracker.cloud.bluegreen.impl.http;
 
 public class StringResponseBodyHandler extends ResponseHandler<String> {
     public static StringResponseBodyHandler INSTANCE = new StringResponseBodyHandler();

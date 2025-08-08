@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.api.error;
+package com.netcracker.cloud.bluegreen.api.error;
 
 import org.qubership.cloud.bluegreen.api.model.LockAction;
 import lombok.Getter;

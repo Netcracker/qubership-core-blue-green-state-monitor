@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.spring.config;
+package com.netcracker.cloud.bluegreen.spring.config;
 
 import org.springframework.boot.autoconfigure.condition.AnyNestedCondition;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

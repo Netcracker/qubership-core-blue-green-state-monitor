@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen.spring.config;
+package com.netcracker.cloud.bluegreen.spring.config;
 
 public class BlueGreenSpringPropertiesUtil {
     protected static final String CONSUL_URL_PROPERTY_SPEL = "${consul.url:${CONSUL_URL:}}";

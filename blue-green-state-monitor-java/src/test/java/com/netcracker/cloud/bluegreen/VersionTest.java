@@ -1,4 +1,4 @@
-package org.qubership.cloud.bluegreen;
+package com.netcracker.cloud.bluegreen;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
