@@ -1,6 +1,6 @@
-package org.qubership.cloud.bluegreen.spring.log;
+package com.netcracker.cloud.bluegreen.spring.log;
 
-import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.api.service.BlueGreenStatePublisher;
 
 /**
  * Initializes the {@link BGStateConverter} with a {@link BlueGreenStatePublisher} instance

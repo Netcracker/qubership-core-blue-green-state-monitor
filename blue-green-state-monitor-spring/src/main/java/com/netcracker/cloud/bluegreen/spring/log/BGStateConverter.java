@@ -1,8 +1,8 @@
-package org.qubership.cloud.bluegreen.spring.log;
+package com.netcracker.cloud.bluegreen.spring.log;
 
 import ch.qos.logback.classic.pattern.ClassicConverter;
 import ch.qos.logback.classic.spi.ILoggingEvent;
-import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
+import com.netcracker.cloud.bluegreen.api.service.BlueGreenStatePublisher;
 
 /**
  * A custom Logback converter that injects the Blue-Green state of current namespace into log messages.
@@ -21,7 +21,7 @@ import org.qubership.cloud.bluegreen.api.service.BlueGreenStatePublisher;
  *
  * <p>Example usage in {@code logback.xml}:</p>
  * <pre>{@code
- * <conversionRule conversionWord="bg_state" converterClass="org.qubership.cloud.bluegreen.spring.log.BGStateConverter"/>
+ * <conversionRule conversionWord="bg_state" converterClass="com.netcracker.cloud.bluegreen.spring.log.BGStateConverter"/>
  *
  * <pattern>%d{HH:mm:ss.SSS} [%-5level] [bg_state:%bg_state] - %msg%n</pattern>
  * }</pre>

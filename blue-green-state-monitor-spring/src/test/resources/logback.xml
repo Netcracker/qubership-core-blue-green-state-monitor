@@ -1,6 +1,6 @@
 <configuration>
 
-    <conversionRule conversionWord="bg_state" converterClass="org.qubership.cloud.bluegreen.spring.log.BGStateConverter"/>
+    <conversionRule conversionWord="bg_state" converterClass="com.netcracker.cloud.bluegreen.spring.log.BGStateConverter"/>
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
