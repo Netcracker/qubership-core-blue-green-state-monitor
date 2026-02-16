@@ -11,10 +11,10 @@
     <artifactId>blue-green-state-monitor-spring</artifactId>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot.version>3.5.10</spring-boot.version>
+        <spring-boot.version>4.0.2</spring-boot.version>
     </properties>
 
     <dependencies>
