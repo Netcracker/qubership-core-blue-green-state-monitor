@@ -1,22 +1,7 @@
-[![Maven build](https://github.com/Netcracker/qubership-core-blue-green-state-monitor/actions/workflows/maven-deploy.yml/badge.svg)](https://github.com/Netcracker/qubership-core-blue-green-state-monitor/actions/workflows/maven-deploy.yml)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?metric=coverage&project=Netcracker_qubership-core-blue-green-state-monitor)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-blue-green-state-monitor)
-[![duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?metric=duplicated_lines_density&project=Netcracker_qubership-core-blue-green-state-monitor)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-blue-green-state-monitor)
-[![vulnerabilities](https://sonarcloud.io/api/project_badges/measure?metric=vulnerabilities&project=Netcracker_qubership-core-blue-green-state-monitor)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-blue-green-state-monitor)
-[![bugs](https://sonarcloud.io/api/project_badges/measure?metric=bugs&project=Netcracker_qubership-core-blue-green-state-monitor)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-blue-green-state-monitor)
-[![code_smells](https://sonarcloud.io/api/project_badges/measure?metric=code_smells&project=Netcracker_qubership-core-blue-green-state-monitor)](https://sonarcloud.io/summary/overall?id=Netcracker_qubership-core-blue-green-state-monitor)
+# Archived
 
-# blue-green-state-monitor-java library
-This library provides ability to listen for BlueGreen state changes in Consul and acquire/release Global/Microservice locks in Consul
+This repository is archived. No new commits should be made here.
 
-<!-- TOC -->
-* [blue-green-state-monitor-java library](#blue-green-state-monitor-java-library)
-  * [Plain java](#plain-java)
-  * [Spring](#spring)
-<!-- TOC -->
+All source code and git history has been moved to the monorepo [qubership-core-java-libs](https://github.com/Netcracker/qubership-core-java-libs/).
 
-## Plain java
-See [blue-green-state-monitor-java-plain readme](./blue-green-state-monitor-java/README.md)
-
-## Spring
-See [blue-green-state-monitor-java-spring readme](./blue-green-state-monitor-spring/README.md)
-
+> **Note:** This repository is preserved solely for publishing Maven artifacts. Please do not delete it.
